@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6lUbSOCjoa8=",
+  "success": true,
+  "projectFilePath": "X:\\vilnius university\\sem_2\\object oriented programming\\work_9_C# NuGET, JSOIN\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joeld\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
