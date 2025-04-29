@@ -32,7 +32,7 @@ namespace ConsoleApp
 
         static void ReadJson()
         {
-            Console.WriteLine("--- JSON User Data ---");
+            Console.WriteLine("--- JSON Users ---");
 
             string filePath = "user.json";
             if (!File.Exists(filePath))
@@ -42,11 +42,18 @@ namespace ConsoleApp
             }
 
             string json = File.ReadAllText(filePath);
-            JsonUser user = JsonConvert.DeserializeObject<JsonUser>(json);
 
-            Console.WriteLine($"Name: {user.Name}");
-            Console.WriteLine($"Age: {user.Age}");
-            Console.WriteLine($"City: {user.City}");
+            // Deserialize a list of users
+            List<JsonUser> users = JsonConvert.DeserializeObject<List<JsonUser>>(json);
+
+            // Loop through and print each user
+            foreach (var user in users)
+            {
+                Console.WriteLine($"Name: {user.Name}");
+                Console.WriteLine($"Age: {user.Age}");
+                Console.WriteLine($"City: {user.City}");
+                Console.WriteLine();
+            }
         }
 
         static void ReadXml()
