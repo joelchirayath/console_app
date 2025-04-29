@@ -18,3 +18,4 @@ X:\vilnius university\sem_2\object oriented programming\work_9_C# NuGET, JSOIN\C
 X:\vilnius university\sem_2\object oriented programming\work_9_C# NuGET, JSOIN\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
 X:\vilnius university\sem_2\object oriented programming\work_9_C# NuGET, JSOIN\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
 X:\vilnius university\sem_2\object oriented programming\work_9_C# NuGET, JSOIN\ConsoleApp\ConsoleApp\bin\Debug\net8.0\example.xml
+X:\vilnius university\sem_2\object oriented programming\work_9_C# NuGET, JSOIN\ConsoleApp\ConsoleApp\bin\Debug\net8.0\user_types.json

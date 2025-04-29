@@ -1,0 +1,16 @@
+[
+    {
+        "Name": "Alice",
+        "Age": 40,
+        "City": "Berlin",
+        "Role": "Administrator",
+        "Permissions": "Full"
+    },
+    {
+        "Name": "Bob",
+        "Age": 22,
+        "City": "Paris",
+        "Role": "Member",
+        "Subscription": "Premium"
+    }
+]
